@@ -6,7 +6,7 @@ function renderContent (data){
         <h2>${data.title}</h2>
         <h4>${data.date}</h4>
         <p>${data.content}</p>
-        <button class=${data.id}>delete</button>
+        <button id="delete--${data.id}">delete</button>
     </div>`
 }
 

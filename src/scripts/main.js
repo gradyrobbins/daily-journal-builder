@@ -33,12 +33,27 @@ document.querySelector("#saveEntryButton").addEventListener("click", () => {
 })
 
 // puts all journal entries on to the DOM
-APIObject.getEntries().then(result => {
+function listEntries () {
+    document.querySelector("#domcard").innerHTML = "";
+    APIObject.getEntries().then(result => {
     result.forEach(entry => {
         document.querySelector("#domcard").innerHTML += renderContent(entry)
     })
 
 })
+}
+listEntries()
 
+document.querySelector(`#domcard`).addEventListener("click", (event) => {
+    console.log(event);
+    if(event.target.id.split("--")[0]=== "delete"){
+        //console.log(event.target.id);
+        let id = event.target.id.split("--")[1]
+        //console.log(id);
+        APIObject.deleteEntries(id).then(() => {
+            listEntries()
+        })
 
-// DELETE BUTTON FUNCTIONALITY
+    }
+
+})

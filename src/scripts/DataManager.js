@@ -18,17 +18,17 @@ const APIObject = Object.create(null, {
 Purpose: Delete journal entry from API as specified by button-id
 */
 
-   deleteJournalEntry :{
+   deleteEntries: {
         value: (id) => {
-        return fetch(`http://localhost:8088/entries${id})`, {
-            method: "DELETE",
+        return fetch(`http://localhost:8088/entries/${id}`, {
+            method: "DELETE"
         })
     }
 },
     /*
     Purpose: Retrieves all product objects from API
     */
-    getEntries:{
+    getEntries: {
        value: () => {
         return fetch("http://localhost:8088/entries")
         .then(response => response.json());
