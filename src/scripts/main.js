@@ -1,0 +1,44 @@
+console.log("hey from main.js");
+const FormManager = require("./JournalForm")
+const APIObject = require("./DataManager")
+const renderContent = require("./JournalContentDom")
+
+
+// render the journal entry form
+document.querySelector("#journalform").innerHTML = FormManager.renderEntryForm()
+const saveButton = document.querySelector("#saveEntryButton")
+// elliot cohort 26 troubleshooting ideas below:
+// console.log(saveButton);
+// saveButton.addEventListener("click", () => {console.log("savebutton clicked")})
+// add event listener
+document.querySelector("#saveEntryButton").addEventListener("click", () => {
+    // get form field values
+    // create object from them
+    // Add timestamp
+    const newEntry = {
+        title: document.querySelector("#entryTitle").value,
+        content: document.querySelector("#entryContent").value,
+        date: Date.now()
+    }
+    // POST it to API-- need datamanager.js
+    APIObject.saveJournalEntry(newEntry).then(() => {
+        // Clear the form fields
+        FormManager.clearForm()
+        
+        // Put HTML representation on the DOM
+        document.querySelector("#domcard").innerHTML += renderContent(newEntry)
+        
+        
+    })
+})
+
+// puts all journal entries on to the DOM
+APIObject.getEntries().then(result => {
+    result.forEach(entry => {
+        document.querySelector("#domcard").innerHTML += renderContent(entry)
+    })
+
+})
+
+
+// DELETE BUTTON FUNCTIONALITY
