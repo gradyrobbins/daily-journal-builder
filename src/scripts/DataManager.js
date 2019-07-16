@@ -30,7 +30,7 @@ Purpose: Delete journal entry from API as specified by button-id
     */
     getEntries: {
        value: () => {
-        return fetch("http://localhost:8088/entries")
+        return fetch("http://localhost:8088/entries?_order=desc&_sort=id")
         .then(response => response.json());
         }
     }
