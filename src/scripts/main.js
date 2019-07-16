@@ -2,6 +2,8 @@ console.log("hey from main.js");
 const FormManager = require("./JournalForm")
 const APIObject = require("./DataManager")
 const renderContent = require("./JournalContentDom")
+const getDate  = require("./getDate")
+// const $ = require("jquery")
 
 
 // render the journal entry form
@@ -18,7 +20,7 @@ document.querySelector("#saveEntryButton").addEventListener("click", () => {
     const newEntry = {
         title: document.querySelector("#entryTitle").value,
         content: document.querySelector("#entryContent").value,
-        date: Date.now()
+        date: getDate()
     }
     // POST it to API-- need datamanager.js
     APIObject.saveJournalEntry(newEntry).then(() => {

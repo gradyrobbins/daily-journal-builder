@@ -1,28 +1,28 @@
 {
   "entries": [
     {
-      "title": "chrome",
-      "content": "messed me up!",
-      "date": 1533757723674,
-      "id": 23
+      "title": " test",
+      "content": " wow",
+      "date": "08/09/2018 at 15:12:29 PM",
+      "id": 1
     },
     {
-      "title": " works!",
-      "content": " it works!",
-      "date": 1533757740457,
-      "id": 24
+      "title": " here's another",
+      "content": " super deep thoughts",
+      "date": "08/09/2018 at 15:12:40 PM",
+      "id": 2
     },
     {
-      "title": "5 o clock",
-      "content": "they are helping me so much",
-      "date": 1533766097752,
-      "id": 27
+      "title": " good morning",
+      "content": " today is friday",
+      "date": "08/10/2018 at 9:23:00 AM",
+      "id": 3
     },
     {
-      "title": "5 45",
-      "content": "still at it\n",
-      "date": 1533768091573,
-      "id": 28
+      "title": "Friday",
+      "content": "just started my 2nd cup of coffee\n",
+      "date": "08/10/2018 at 9:40:01 AM",
+      "id": 4
     }
   ]
 }
