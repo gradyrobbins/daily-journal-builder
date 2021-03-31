@@ -1,7 +1,5 @@
 # C27 daily journal builder
 
-![screengrab](/c27_dailyjournal_screengrab.png)
-
 
 ## To start-up this project:
 1. clone or fork this repository
@@ -10,3 +8,7 @@
 1. cd src/lib ```npm install``` 
 1. ```npm start```
 1. ```grunt```
+
+### Screengrab: 
+------------------
+![screengrab](/c27_dailyjournal_screengrab.png)
