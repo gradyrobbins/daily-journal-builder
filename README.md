@@ -1,10 +1,11 @@
 # C27 daily journal builder
-![C27icon](/c27.jpeg)
-
+![C27icon](/c27.jpeg) 
+#### This application requires 3 separate processes running concurrently in your terminal:  A json server as a database, a http-server window, and the grunt task runner.
 
 ## To start-up this project:
-1. clone or fork this repository; note that this app requires 3 separate processes running in your terminal:  A json server as a database, a http-server window, and the grunt task runner.
-1. in your terminal
+
+1. clone or fork this repository 
+1. In your terminal
 1. cd api ```json-server -p 8088 database.json```.
 1. then, ```Command + T``` to open another tab in the terminal
 1. cd dist ``` hs -o ```
