@@ -2,16 +2,22 @@
 ![C27icon](/c27.jpeg)
 
 
-## To start-up this project:
-1. clone or fork this repository; note that this app requires 3 separate processes running in your terminal:  A json server as a database, a http-server window, and the grunt task runner.
-1. in your terminal
-1. cd api ```json-server -p 8088 database.json```.
-1. then, ```Command + T``` to open another tab in the terminal
-1. cd dist ``` hs -o ```
-1. then, ```Command + T``` to open another tab in the terminal
-1. cd src/lib ```npm install```
-1. ```npm start```
-1. ```grunt```
+## Start up instructions:  From your terminal, clone or fork this repository
+
+This application requires **3 separate processes** running in your terminal:
+
+1. **A json server as a database:**
+    * cd api ```json-server -p 8088 database.json```.
+
+    *  ```Command + T```  opens a new tab in your terminal
+1. **A http-server window:**
+    * cd dist ``` hs -o ```
+
+    * ```Command + T```  opens a new tab in your terminal
+1. **And, the grunt task runner:**
+    * cd src/lib ```npm install```
+    * ```npm start```
+    * ```grunt```
 
 ### Screengrab:
 ------------------
