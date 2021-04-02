@@ -1,12 +1,12 @@
-# C27 daily journal builder
-![C27icon](/c27.jpeg) 
-#### This application requires 3 separate processes running concurrently in your terminal:  A json server as a database, a http-server window, and the grunt task runner.
 
+![C27icon](/c27.jpeg) 
+
+# Cohort 27 - Daily journal builder
 
 ## Start up instructions:  From your terminal, clone or fork this repository
 
-This application requires **3 separate processes** running in your terminal:
 
+This application requires **3 separate processes** running in your terminal:
 1. **A json server as a database:**
     * cd api ```json-server -p 8088 database.json```.
 
