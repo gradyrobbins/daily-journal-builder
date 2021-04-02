@@ -1,5 +1,6 @@
 # C27 daily journal builder
-![C27icon](/c27.jpeg)
+![C27icon](/c27.jpeg) 
+#### This application requires 3 separate processes running concurrently in your terminal:  A json server as a database, a http-server window, and the grunt task runner.
 
 
 ## Start up instructions:  From your terminal, clone or fork this repository
@@ -18,6 +19,7 @@ This application requires **3 separate processes** running in your terminal:
     * cd src/lib ```npm install```
     * ```npm start```
     * ```grunt```
+
 
 ### Screengrab:
 ------------------
