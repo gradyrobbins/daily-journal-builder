@@ -3,7 +3,7 @@
 
 # Cohort 27 - Daily journal builder
 
-## Start up instructions:  From your terminal, clone or fork this repository
+## Start up instructions:  First, clone or fork this repository, then navigate to the directory in your terminal
 
 
 This application requires **3 separate processes** running in your terminal:
