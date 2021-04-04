@@ -13,16 +13,16 @@
       "id": 2
     },
     {
-      "title": " good morning",
-      "content": " today is friday",
-      "date": "08/10/2018 at 9:23:00 AM",
-      "id": 3
-    },
-    {
       "title": "Friday",
       "content": "just started my 2nd cup of coffee\n",
       "date": "08/10/2018 at 9:40:01 AM",
       "id": 4
+    },
+    {
+      "title": "COVID vaccine",
+      "content": "Julie got her 2nd dose of the Pfizer vaccine this morning YAY",
+      "date": "04/03/2021 at 11:17:47 AM",
+      "id": 5
     }
   ]
 }
