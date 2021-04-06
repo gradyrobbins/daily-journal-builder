@@ -1,8 +1,16 @@
 .entriesDOM {
+    font-family: 'Nunito', sans-serif;
     border: 1px black solid;
     background-color: #d3d3d3;
     padding: 1.5em;
     margin: 2em;
+}
+
+.entriesDOM h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: xx-large;
 }
 
 .domcard {}
