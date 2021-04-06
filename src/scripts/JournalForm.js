@@ -9,22 +9,28 @@ const FormManager = Object.create(null, {
     renderEntryForm: {
         value: () => {
 
-            return `<form class="pure-form" integrity="">
+            return `
+            <form class="pure-form" integrity="">
+
         <fieldset class="pure-group">
-            <label for="entryTitle">Title:</label>
-            <input required type="text" id="entryTitle" class="pure-input-1-2" placeholder="Title"  >
+            <input required type="text" id="entryTitle" class="pure-input-1-4" placeholder="Journal Title" >
         </fieldset>
-
         <fieldset>
-            <label for="entryContent">Deep thoughts:</label>
-            <textarea id="entryContent" class="pure-input-1-2" placeholder="Deep thoughts" ></textarea>
+            <textarea required id="entryContent" class="pure-input-2-3" placeholder="Journal Entry" ></textarea>
         </fieldset>
+        <button id="saveEntryButton" type="submit" class="entryContent pure-button pure-input-1-8 pure-button-primary ">Save Journal Entry</button>
 
-        <button id="saveEntryButton" type="submit" class="pure-button pure-input-1-2 pure-button-primary>Save Journal Entry</button>
 
-    </fieldset>
-</form>`
+        </form>
+        `
         }
     }
 })
+
+/*<
+label
+for = "entryTitle" > Title: < /label> <
+    label
+for = "entryContent" > Deep thoughts: < /label>*/
+
 module.exports = FormManager

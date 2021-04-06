@@ -1,3 +1,18 @@
 .entriesDOM {
-    border: 1px black solid
+    border: 1px black solid;
+    background-color: #d3d3d3;
+    padding: 1.5em;
+    margin: 2em;
+}
+
+.domcard {}
+
+
+/* .pure-g>div {
+    box-sizing: border-box;
+} */
+
+.l-box {
+    padding: 1.5em;
+    margin: 1.5em;
 }
