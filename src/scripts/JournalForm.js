@@ -10,19 +10,21 @@ const FormManager = Object.create(null, {
         value: () => {
 
             return `
-            <form class="pure-form" integrity="">
+            <form class="pure-form pure-group" integrity="">
 
-        <fieldset class="pure-group">
-            <input required type="text" id="entryTitle" class="pure-input-1-4" placeholder="Journal Title" >
-        </fieldset>
-        <fieldset>
-            <textarea required id="entryContent" class="pure-input-2-3" placeholder="Journal Entry" ></textarea>
-        </fieldset>
-        <button id="saveEntryButton" type="submit" class="entryContent pure-button pure-input-1-8 pure-button-primary ">Save Journal Entry</button>
+                <fieldset class="pure-u-1 pure-g">
+
+                    <div><input required type="text" id="entryTitle" class="pure-input-1-3" placeholder="Journal Title" >
+                    </div>
+                    <div><textarea required id="entryContent" class="pure-u-1" placeholder="Journal Entry" ></textarea></div>
+                    <button id="saveEntryButton" type="submit" class="entryContent pure-button pure-input-1-8 pure-button-primary ">Save Journal Entry</button><br/>
+
+                </fieldset>
 
 
-        </form>
-        `
+
+             </form>
+            `
         }
     }
 })
@@ -32,5 +34,14 @@ label
 for = "entryTitle" > Title: < /label> <
     label
 for = "entryContent" > Deep thoughts: < /label>*/
+
+// <
+// div class = "pure-u-1-24 l-box" >
+//     <
+//     img class = "pure-img"
+// src = "https://i0.hippopx.com/photos/360/152/13/daffodils-osterglocken-yellow-flower-preview.jpg"
+// alt = "Flowers" >
+//     <
+//     /div>
 
 module.exports = FormManager

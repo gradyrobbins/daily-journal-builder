@@ -1,7 +1,5 @@
 //console.log("Hello JournalContentDom.js")
-
 // create a function to build a card; this is what the journal entry should look like
-
 
 
 function renderContent(data) {
