@@ -13,16 +13,28 @@
       "id": 2
     },
     {
-      "title": " good morning",
-      "content": " today is friday",
-      "date": "08/10/2018 at 9:23:00 AM",
-      "id": 3
-    },
-    {
       "title": "Friday",
       "content": "just started my 2nd cup of coffee\n",
       "date": "08/10/2018 at 9:40:01 AM",
       "id": 4
+    },
+    {
+      "title": "COVID vaccine",
+      "content": "Julie got her 2nd dose of the Pfizer vaccine this morning YAY",
+      "date": "04/03/2021 at 11:17:47 AM",
+      "id": 5
+    },
+    {
+      "title": "DeLorean Ipsum",
+      "content": "That ain't no airplane, look. Who's are these? Now that's a risk you'll have to take you're life depends on it. Hey George, buddy, hey, I've been looking all over for you. You remember me, the guy who saved your life the other day. Well that's your name, isn't it? Calvin Klein. it's written all over your underwear. Oh, I guess they call you Cal, huh?\n\nWait a minute, Doc. What are you talking about? What happens to us in the future? What do we become assholes or something? Now, of course not, Biff, now, I wouldn't want that to happen. Who the hell is John F. Kennedy? So you're my Uncle Joey. Better get used to these bars, kid. Yeah well, I saw it on a rerun.\n\nOh, uh, hey you, get your damn hands off her. Do you really think I oughta swear? Oh. Hello. Alright, McFly, you're asking for it, and now you're gonna get it. Are those my clocks I hear?",
+      "date": "04/04/2021 at 10:49:34 AM",
+      "id": 7
+    },
+    {
+      "title": "Hello.",
+      "content": "Hey, hey, I've seen this one, I've seen this one. This is a classic, this is where Ralph dresses up as the man from space. You okay, is everything alright? Alright, we're the pinheads. Einstein, hey Einstein, where's the Doc, boy, huh? Doc Is she pretty?\n\nNext, please. What kind of date? I don't know, what do kids do in the fifties? Go. Yeah. Wait a minute. Wait a minute, Doc. Are you telling me that it's 8:25?\n\nI'm gonna ram him. Ah, honey, your first novel. Why not? Well, because George, nice girls get angry when guys take advantage of them.",
+      "date": "04/04/2021 at 14:40:32 PM",
+      "id": 8
     }
   ]
 }
