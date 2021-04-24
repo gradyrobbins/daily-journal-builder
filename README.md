@@ -1,5 +1,5 @@
 
-![C27icon](/c27.jpeg) 
+![C27icon](/c27.jpeg)
 
 # Cohort 27 - Daily journal builder
 
@@ -21,6 +21,9 @@ This application requires **3 separate processes** running in your terminal:
     * ```grunt```
 
 
-### Screengrab:
+### Current State:
+------------------
+![screengrab](/c27_dailyjournal_screengrab2point0.png)
+### Earlier Version:
 ------------------
 ![screengrab](/c27_dailyjournal_screengrab.png)
