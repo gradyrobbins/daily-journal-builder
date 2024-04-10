@@ -33,6 +33,7 @@
     "cached-path-relative": "^1.1.0",
     "ini": "^4.1.2",
     "js-yaml": "^3.13.1",
-    "kind-of": "^6.0.3"
+    "kind-of": "^6.0.3",
+    "minimist": "^1.2.8"
   }
 }
