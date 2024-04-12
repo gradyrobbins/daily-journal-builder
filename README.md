@@ -1,27 +1,22 @@
-
 ![C27icon](/c27.jpeg)
 
-# Cohort 27 - Daily journal
+# Journal builder
 
-## Start up instructions:  
-### Clone or fork this repository. Then, navigate to the daily-journal-builder directory in your terminal.
+# ```Command + T ``` 3x to open 3 fresh tabs     
 
+1. In one tab:  
+   1. ```cd api```  
+   2. ```json-server -p 8088 database.json``` 
+  
+2. In the second tab: 
+   1. ```cd dist```
+   2. ``` hs -o ``` 
 
-**3 separate processes** will run simultaneously in your terminal:
-1. **A json server as a database:**
-    * cd api ```json-server -p 8088 database.json```.
-
-    
-*  ```Command + T```  opens a new tab in your terminal
-2. **A http-server window:**
-    * cd dist ``` hs -o ```
-
-
-* ```Command + T```  opens a new tab in your terminal
-3. **And, the grunt task runner:**
-    * cd src/lib ```npm install```
-    * ```npm start```
-    * ```grunt```
+2. Install dependencies and start the *grunt* task runner
+   1.  ```cd src/lib```
+   2.   ```npm install```
+   3.   ```npm start```
+   4.   ```grunt```
 
 
 ### Screengrab:
